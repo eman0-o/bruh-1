@@ -1,0 +1,87 @@
+
+body {
+   
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    
+    background: #111; 
+      color: #fff;
+    min-height: 100vh;
+}
+
+
+header {
+     background: #000; 
+   
+   
+     text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+   
+   
+    font-family: "Bebas Neue", sans-serif;
+   
+    font-size: 40px;
+    letter-spacing: 2px;
+       color: #ff4655;
+    margin: 0;
+}
+
+
+main {
+    max-width: 1000px;
+      margin: auto;
+    padding: 30px 15px;
+}
+
+.chamada-texto {
+     text-align: center;
+    margin-bottom: 25px;
+}
+
+.chamada-texto h2 {
+    font-family: "Bebas Neue", sans-serif;
+    
+    font-size: 32px;
+    color: #2f92ad;
+    margin-bottom: 10px;
+}
+
+.chamada-texto p {
+    font-size: 18px;
+   
+    color: #bbb;
+}
+
+.video-container {
+    display: flex;
+      justify-content: center;
+    margin-bottom: 40px;
+}
+
+.video-container iframe {
+    width: 100%;
+   
+   
+    max-width: 720px;
+    aspect-ratio: 16/9;
+     
+    border-radius: 8px; 
+}
+
+
+.recomendados h3 {
+    font-family: "Bebas Neue", sans-serif;
+  
+  
+     font-size: 28px;
+      margin-bottom: 20px;
+        color: #ff4655;
+    letter-spacing: 1px;
+}
+
+.video-grid iframe {
+    border-radius: 6px;
+}
